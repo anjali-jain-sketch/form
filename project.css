@@ -1,0 +1,116 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*header*/
+header{
+    display:flex;
+    background-color:rgb(255,255,255);
+    height: 60px;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom:1px solid #755757; 
+}
+.logocontainer{
+    margin-left: 3px;
+    height:50px;
+    width:30px;
+    justify-content: center;
+}
+.actionbar{
+    margin-right: 4px;
+}
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.navbar a{
+    font: size 14px;
+    letter-spacing: 1px;
+    color:#202c3f;
+    font-weight:700;
+    text-transform: uppercase;
+    text-decoration:none;
+    padding: 22px 0;
+}
+.navbar:hover{
+    border-bottom:5px solid #f54e77;
+}
+.searchbar{
+    height:40px;
+    font-weight:700px;
+    min-width: 400px;
+    align-items: center;
+    font-size:20px;
+    color: black;
+    border-radius: :0px 4px 4px 0px;
+}
+.actionbar{
+    display: flex;
+align-items: center;
+min-width: 200px;
+justify-content: space-around;
+}
+img{
+    height: 30px;
+    width: 20px;
+    margin: 10px
+}
+/*main section*/
+.banner{
+    height:350px;
+    width:1580px;
+}
+.bannercontainer{
+    margin:30px 0;
+}
+.categoryheading{
+    text-transform:uppercase;
+    color:#3e4152;
+    letter-spacing:.15em;
+    font-size:1.8em;
+    margin:50px 0 10px 30px;
+    max-height:5em;
+    font-weight:700px;
+}
+.images{
+    height: 200px;
+    width: 240px;
+}
+.categoryitems{
+    display:flex;
+    flex-wrap: wrap;
+}
+.image{
+    height:200px;
+    width: 200px;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+/*footersection*/
+.footercontainer{
+        display: flex;
+    padding:30px 0 40px 0;
+    background:#FAFBFC;
+justify-content: center;
+}
+.footercolumn a{
+    display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.footercolumn h3{
+    font-size:14px;
+    margin-bottom:25px;
+}
+.copyright{
+    color:#94969f;
+    text-align: end;
+    padding: 15px;
+}

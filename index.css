@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    color: rgb(20,202,20);
+    font-size: 30px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+#name ,#pass ,#number ,#select{
+    color:green;
+    margin:5px;
+    padding: 5px 50px;
+}
+button{
+    background-color:rgb(20,202,20);
+    padding: 5px 80px;
+    width:450px;
+    height:25px;
+}
+#right{ 
+    margin-right: 300px;
+    margin-top: 150px;
+}
+#left{
+margin-left: 10px;
+}
+form #sub{
+    display: flex;
+    border: 10px solid rgb(20,202,20); 
+    font-weight: bolder;
+    margin-top: 10px;
+    justify-content: space-between;
+    border-bottom: 30px solid rgb(20,202,20);
+}
+body{
+    font-family:'Poppins',sans -serif;
+    font-size: 20px;
+}
+#b{
+    margin-bottom: 10px;
+}
+textarea{
+    height: 50px;
+    width:300px;
+}
