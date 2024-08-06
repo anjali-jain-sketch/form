@@ -1,0 +1,33 @@
+#big{
+    height: 700px;
+    width:1300px;
+    background-image: url(photo10.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#small{
+    height: 600px;
+    width: 1200px;
+    background-color:rgb(40, 3, 58);
+    position: relative;
+    top: 60px;
+    left: 50px; 
+    
+}
+body{
+    font-size: 25px;
+color: white;
+margin: 70px;   
+}
+input type{
+padding: 5px 25px;
+}
+#a ,#b ,#c ,#d  ,#e ,#f ,#g           {
+    padding: 8px 500px;
+    margin-bottom: 15px;   
+}
+form{
+    margin:25px;
+    
+}
+
