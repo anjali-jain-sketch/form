@@ -1,0 +1,33 @@
+h1{
+    background-color:lightsalmon;
+    text-align: center;
+}
+body{
+    margin: 70px;
+}
+#list{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+#a{
+    margin-top: 20px;
+}
+#b{
+    margin-top: 20px;
+}
+img{
+float: left;
+margin-right: 20px;
+
+}
+input{
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+textbox{
+    margin: 20px;
+}
+.d{
+    margin-bottom: 5px;
+}
+    
